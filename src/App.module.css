@@ -1,0 +1,38 @@
+.section {
+  display: flex;
+  justify-content: center;
+}
+
+.section-form {
+  margin-top: 2rem;
+}
+
+.section-list {
+  display: none;
+  margin-top: 2rem;
+}
+
+.section-popup {
+  position: relative;
+  display: none;
+  z-index: 9999;
+}
+
+.section-popup.display,
+.section-list.display {
+  display: flex;
+}
+
+.overlay {
+  top: 0;
+  left: 0;
+  width: 100vh;
+  height: 100vh;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+}
+
+.overlay.display {
+  display: block;
+}

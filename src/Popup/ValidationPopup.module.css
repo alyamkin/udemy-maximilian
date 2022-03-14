@@ -1,0 +1,33 @@
+.card {
+  padding: 0;
+}
+
+.popup {
+  display: flex;
+  flex-direction: column;
+}
+
+.popup-head {
+  padding: 1rem;
+  color: #fff;
+  background-color: #8b005d;
+  border-radius: 10px 10px 0 0;
+}
+.popup-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.popup-body {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.popup-message {
+  margin-bottom: 2.5rem;
+}
+
+.button {
+  align-self: flex-end;
+}
