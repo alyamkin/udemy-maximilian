@@ -1,0 +1,11 @@
+.header {
+  color: #fff;
+  background-color: #741188;
+  display: flex;
+  align-items: center;
+  padding: 2.5rem 3rem;
+}
+
+.header__logo {
+  font-size: 3rem;
+}
