@@ -1,0 +1,14 @@
+.theme {
+  padding: 2rem;
+  margin: 2rem;
+}
+
+.theme--dark {
+  background-color: #333;
+  color: #ccc;
+}
+
+.theme--light {
+  background-color: #ccc;
+  color: #333;
+}
