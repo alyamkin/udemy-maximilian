@@ -1,0 +1,20 @@
+.form {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.form input {
+  font: ingerit;
+  padding: 0.25rem;
+  flex: 1;
+  border: none;
+  font-size: 1.2rem;
+  transition: all 0.5s;
+  border-bottom: 3px solid #d3d3d3;
+}
+
+.form input:focus {
+  outline: none;
+  border-bottom: 3px solid #6d6d6d;
+}
