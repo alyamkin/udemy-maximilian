@@ -1,0 +1,8 @@
+.meals-group {
+  width: 60rem;
+  margin: auto;
+}
+
+.meals-group ul {
+  list-style: none;
+}

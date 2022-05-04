@@ -1,0 +1,34 @@
+.button {
+  font: inherit;
+  cursor: pointer;
+  border: 1px solid transparent;
+  padding: 0.3rem 2rem;
+  min-width: 5rem;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.253);
+  border-radius: 20px;
+  background-color: transparent;
+}
+
+.filled {
+  color: #fff;
+  border-color: #641e03;
+  background-color: #641e03;
+}
+
+.filled:hover,
+.filled:active {
+  border-color: #4d1601;
+  background-color: #4d1601;
+}
+
+.outlined {
+  color: #641e03;
+  border-color: #641e03;
+}
+
+.outlined:hover,
+.outlined:active {
+  color: #fff;
+  border-color: #4d1601;
+  background-color: #4d1601;
+}

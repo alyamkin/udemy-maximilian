@@ -1,0 +1,17 @@
+.input-group {
+  margin-bottom: 0.5rem;
+}
+
+.input-group label {
+  font-weight: 700;
+  margin-right: 1rem;
+}
+
+.input-group input {
+  outline: none;
+  border: 1px solid #3f3f3f;
+  padding: 0 0.3rem;
+  font-size: 1rem;
+  font-family: inherit;
+  border-radius: 6px;
+}

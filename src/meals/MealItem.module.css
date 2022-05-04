@@ -1,0 +1,24 @@
+.meal-item {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #7d7d7d;
+  padding: 1rem 0;
+}
+
+.meal-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.meal-name {
+  font-weight: 700;
+}
+
+.meal-description {
+  font-style: italic;
+}
+
+.meal-price {
+  font-weight: 700;
+  color: #ad5502;
+}

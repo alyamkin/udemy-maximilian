@@ -1,0 +1,55 @@
+.meal {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #ad5502;
+  padding: 1rem 0;
+}
+
+.meal-name {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.meal-price {
+  font-weight: 700;
+  color: #ad5502;
+  margin-right: 3rem;
+}
+
+.meal-amount {
+  border: 1px solid #b9b9b9;
+  padding: 0.1rem 0.5rem;
+  font-weight: 700;
+  border-radius: 5px;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.actions button {
+  color: #ad5502;
+  border: 1px solid #ad5502;
+  cursor: pointer;
+  padding: 0.1rem 0.5rem;
+  min-width: 3rem;
+  font-size: inherit;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.226);
+  font-weight: 700;
+  font-family: inherit;
+  border-radius: 5px;
+  background-color: transparent;
+}
+
+.actions button:hover,
+.actions button:active {
+  color: #fff;
+  background-color: #ad5502;
+}
+
+.group-description {
+  display: flex;
+}
